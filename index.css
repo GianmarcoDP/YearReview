@@ -9,12 +9,14 @@ font-family: 'Roboto', sans-serif;
 
 h1, h2{
 color: #f2f2f2;
+clear:left;
 }
 
 p{
 color: #f2f2f2;
 font-size: 20px;
 clear:left;
+margin-top:20px;
 }
 
 img {
@@ -22,4 +24,42 @@ width:45%;
 margin-left:2.5%;
 margin-right:2.5%;
 float:left;
+}
+
+.subImage{
+width:90%; 
+margin: 0 5% 0 5%;
+}
+
+#manga {
+  font-size:30px;
+  
+}
+.nav {
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color: #333333;
+float:left;
+}
+
+.list {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: fit-content;
+background-color: #333333;
+}
+
+li, a {
+display: block;
+color: #f2f2f2;
+padding: 8px 16px;
+text-decoration: none;
+float:left;
+}
+
+li a:hover {
+background-color: #f2f2f2;
+color: #333333;
 }
